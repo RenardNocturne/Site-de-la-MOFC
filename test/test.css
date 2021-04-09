@@ -1,0 +1,23 @@
+
+
+
+a {
+  position: relative /*(nécessaire pour bien utiliser)*/;
+}
+
+a::after {
+  position: absolute; /*(là aussi nécessaire)
+  Ensuite, vous pouvez le paramétrer à votre guise.*/
+  content: ""; /*(Ajouter un content est nécessaire pour que l'élément after fonctionne vous pouvez le laisser vide ou le remplir si vous le remplissez, vous verrez votre contenu sur la page)*/
+  bottom: 0;
+  height: 2px;
+  left: 50%;
+  background: #BA1414;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+a:hover::after {
+  width: 100%; 
+  left: 0; 
+}
