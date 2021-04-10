@@ -30,3 +30,44 @@
             </ul> 
         </div>
     </nav>
+
+    <div class="container">
+
+        <div class="img">
+            <img src="../img/logo_bot_fox.jpg" alt="Re-logo">
+        </div>
+        
+        <div class="content">
+            <h1>Inscription</h1>
+
+            <form method="POST" action="login.js">
+                <input type="text" name="DiscordUsername" id="DiscordUsername" placeholder="Votre pseudo Discord (Moi#4356)" autofocus autocomplete="off"><br>
+                <input type="text" name="IGUsername" id="IGUsername" placeholder= 'Votre pseudo in-game ?' autocomplete="off">
+            
+            <div class="pass">
+                <input type="password" name="bpass" id="bpass" placeholder= 'Votre mot de passe:'>
+                <input type="password" name="pass" id="username" placeholder="Confirmer votre mot de passe:"><br>
+                
+            <div class="select">
+                <label class="jsp">Vous jouez sur le serveur: </label>
+                <select name="server" id="server">
+                    <option value="Non défini"> ----- </option>
+                    <option value="Lime">Lime</option>
+                    <option value="Orange">Orange</option>
+                    <option value="Orange et Lime">Les deux</option>
+                </select>
+            </div>
+                
+            </div>
+
+                <input type="submit" value="S'inscrire">
+            </form>
+            <div class="inscription">
+                <a href="../Login/login.html" class="signup">Je possède déjà un compte</a>
+            </div>
+        </div>
+
+    </div>
+    <script src="signup.js"></script>
+</body>
+</html>
