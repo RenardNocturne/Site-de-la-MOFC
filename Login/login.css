@@ -226,10 +226,10 @@ P {
 
 input[type="text"], input[type="password"] {
   text-align: center;
-  background: #ece6e5;
+  background: #191C1F;
   margin-top: 0;
   width: 90%;
-  color: #333;
+  color: #E6D5D2;
   font-weight: 500;
   margin-left: 50%;
   transform: translateX(-50%);
@@ -238,14 +238,17 @@ input[type="text"], input[type="password"] {
   border: none;
   outline: 0;
   box-shadow: none;
+  transition: background 0.3s, color 0.3s;
 }
 
 input[type="text"]:hover, input[type="password"]:hover {
-  background: #fff;
+  background: #1d242b;
+  color: #E6D5D2;
 }
 
 input[type="text"]:focus, input[type="password"]:focus {
-  background: #fff;
+  background: #1d242b;
+  color: #E6D5D2;
 }
 
 .pass {
