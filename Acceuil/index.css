@@ -9,6 +9,7 @@
 body {
   background: #191C1F;
   color: #E6D5D2;
+  width: 100%;
 }
 
 nav {
@@ -403,3 +404,8 @@ hr {
   cursor: default;
   margin-top: 10px;
 }
+
+/*                    Resposive                     */
+/*
+A 800px ça commence à déconner 
+*/

@@ -9,8 +9,8 @@
 body {
   background: #191C1F;
   color: #E6D5D2;
+  width: 100%;
 }
-
 nav {
   margin: 50px;
   height: 150px;
