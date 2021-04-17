@@ -41,12 +41,12 @@
             <h1>Inscription</h1>
 
             <form method="POST" action="signup.php">
-                <input type="text" name="DiscordUsername" id="DiscordUsername" placeholder="Votre pseudo Discord (Moi#4356)" autofocus autocomplete="off"><br>
-                <input type="text" name="IGUsername" id="IGUsername" placeholder= 'Votre pseudo in-game ?' autocomplete="off">
+                <input type="text" name="DiscordUsername" id="DiscordUsername" placeholder="Votre pseudo Discord (Moi#4356)" autofocus autocomplete="off" required><br>
+                <input type="text" name="IGUsername" id="IGUsername" placeholder= 'Votre pseudo in-game ?' autocomplete="off" required>
             
             <div class="pass">
-                <input type="password" name="bpass" id="bpass" placeholder= 'Votre mot de passe:'>
-                <input type="password" name="pass" id="username" placeholder="Confirmer votre mot de passe:"><br>
+                <input type="password" name="bpass" id="bpass" placeholder= 'Votre mot de passe:' required>
+                <input type="password" name="pass" id="username" placeholder="Confirmer votre mot de passe:" required><br>
                 
             <div class="select">
                 <label class="jsp">Vous jouez sur le serveur: </label>
