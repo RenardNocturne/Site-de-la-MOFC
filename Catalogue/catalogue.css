@@ -122,7 +122,7 @@ nav .contentnav ul li a:hover:after {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #818181;
+  background: linear-gradient(#881010, #790b0b 100%);
   clip-path: circle(0px at -10% 7%);
   transition: ease-in-out 0.5s;
   z-index: 1;
@@ -140,7 +140,7 @@ nav .contentnav ul li a:hover:after {
   border-radius: 20px;
   overflow: hidden;
   transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
-  margin: 5% 25px;
+  margin: 5% 25px 0 25px;
 }
 
 .card:hover {
@@ -148,7 +148,7 @@ nav .contentnav ul li a:hover:after {
   box-shadow: 3px 7px  15px black, -3px 0px 5px black;
 }
 
-.tin {
+.ore {
   position: absolute;
   left: 50%;
   top: 5%;
@@ -200,8 +200,8 @@ nav .contentnav ul li a:hover:after {
   transition-delay: 0.15s;
 }
 
-.type h3, .number h3 {
-  color: #BA1414;
+h3 {
+  color: #191C1F;
   text-transform: uppercase;
   text-align: center;
   font-weight: normal;
@@ -211,26 +211,33 @@ nav .contentnav ul li a:hover:after {
 .contentBx p {
   position: relative;
   text-align: center;
-  color: #15171A;
+  color: #E6D5D2;
   margin-top: -2%;
   transition: 0.5s;
   cursor: pointer;
 }
 
-.contentBx a {
-  color: #BA1414;
+.buy {
+  border-radius: 50px;
+  width: 60%;
+  background: #191C1F;
+  color: #E6D5D2;
+  box-shadow: 3px 5px  5px black, -3px 0px 5px black;
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 1px;
   position: absolute;
-  transition: color 0.3s;
+  transition: background 0.3s, box-shadow 0.3s, transform 0.3s;
+  text-align: center;
   margin-left: 50%;
   transform: translateX(-50%);
   margin-top: 2%;
 }
 
 .contentBx a:hover {
-  color: #790b0b
+  background: #202327;                          /*Le seul*/
+  box-shadow: none;
+  transform: translate(-50%, 5px);
 }
 
 .card:hover .contentBx a {
@@ -279,4 +286,568 @@ nav .contentnav ul li a:hover:after {
   height: 100%;
   background: linear-gradient(to top, #BA1414, #4d1b19);
   filter: blur(30px);
+}
+
+
+
+
+
+
+
+/*                  Autre carte                               */
+
+
+
+
+
+
+
+.card2:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#881010, #790b0b 100%);
+  clip-path: circle(0px at -10% 7%);
+  transition: ease-in-out 0.5s;
+  z-index: 1;
+}
+
+.card2:hover:before {
+  clip-path: circle(100%);
+}
+
+.card2 {
+  position: relative;
+  width: 320px;
+  height: 450px;
+  background: #15171A;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+  margin: 5% 25px 0 25px;
+}
+
+.card2:hover {
+  transform: translateY(-15px);
+  box-shadow: 3px 7px  15px black, -3px 0px 5px black;
+}
+
+.type2, .number2 {
+  align-items: center;
+  padding: 8px 20px;
+  transition: 0.5s ease-in-out;
+  margin-top: 110%;
+  opacity: 0;
+}
+
+.card2:hover .type2 {
+  opacity: 1;
+  margin-top: 2%;
+}
+
+.card2:hover .number2 {
+  margin-top: -10%;
+  opacity: 1;
+  transition-delay: 0.15s;
+}
+
+.card2:hover .buy {
+  opacity: 1;
+  transition-delay: opacity 0.5s;
+}
+
+/*                      New Card          */
+
+
+
+
+
+
+.card3:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#881010, #790b0b 100%);
+  clip-path: circle(0px at -10% 7%);
+  transition: ease-in-out 0.5s;
+  z-index: 1;
+}
+
+.card3:hover:before {
+  clip-path: circle(100%);
+}
+
+.card3 {
+  position: relative;
+  width: 320px;
+  height: 450px;
+  background: #15171A;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+  margin: 5% 25px 0 25px;
+}
+
+.card3:hover {
+  transform: translateY(-15px);
+  box-shadow: 3px 7px  15px black, -3px 0px 5px black;
+}
+
+.type3, .number3 {
+  align-items: center;
+  padding: 8px 20px;
+  transition: 0.5s ease-in-out;
+  margin-top: 110%;
+  opacity: 0;
+}
+
+.card3:hover .type3 {
+  opacity: 1;
+  margin-top: 2%;
+}
+
+.card3:hover .number3 {
+  margin-top: -10%;
+  opacity: 1;
+  transition-delay: 0.15s;
+}
+
+.card3:hover .buy {
+  opacity: 1;
+  transition-delay: opacity 0.5s;
+}
+
+/*                      Container          */
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+
+/*                        New card                          */
+
+
+.card4:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#881010, #790b0b 100%);
+  clip-path: circle(0px at -10% 7%);
+  transition: ease-in-out 0.5s;
+  z-index: 1;
+}
+
+.card4:hover:before {
+  clip-path: circle(100%);
+}
+
+.card4 {
+  position: relative;
+  width: 320px;
+  height: 450px;
+  background: #15171A;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+  margin: 5% 25px 0 25px;
+}
+
+.card4:hover {
+  transform: translateY(-15px);
+  box-shadow: 3px 7px  15px black, -3px 0px 5px black;
+}
+
+.type4, .number4 {
+  align-items: center;
+  padding: 8px 20px;
+  transition: 0.5s ease-in-out;
+  margin-top: 110%;
+  opacity: 0;
+}
+
+.card4:hover .type4 {
+  opacity: 1;
+  margin-top: 2%;
+}
+
+.card4:hover .number4 {
+  margin-top: -10%;
+  opacity: 1;
+  transition-delay: 0.15s;
+}
+
+.card4:hover .buy {
+  opacity: 1;
+  transition-delay: opacity 0.5s;
+}
+
+/*                      New Card          */
+
+
+.card5:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#881010, #790b0b 100%);
+  clip-path: circle(0px at -10% 7%);
+  transition: ease-in-out 0.5s;
+  z-index: 1;
+}
+
+.card5:hover:before {
+  clip-path: circle(100%);
+}
+
+.card5 {
+  position: relative;
+  width: 320px;
+  height: 450px;
+  background: #15171A;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+  margin: 5% 25px 0 25px;
+}
+
+.card5:hover {
+  transform: translateY(-15px);
+  box-shadow: 3px 7px  15px black, -3px 0px 5px black;
+}
+
+.type5, .number5 {
+  align-items: center;
+  padding: 8px 20px;
+  transition: 0.5s ease-in-out;
+  margin-top: 110%;
+  opacity: 0;
+}
+
+.card5:hover .type5 {
+  opacity: 1;
+  margin-top: 2%;
+}
+
+.card5:hover .number5 {
+  margin-top: -10%;
+  opacity: 1;
+  transition-delay: 0.15s;
+}
+
+.card5:hover .buy {
+  opacity: 1;
+  transition-delay: opacity 0.5s;
+}
+
+/*                      New Card          */
+
+
+.card6:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#881010, #790b0b 100%);
+  clip-path: circle(0px at -10% 7%);
+  transition: ease-in-out 0.5s;
+  z-index: 1;
+}
+
+.card6:hover:before {
+  clip-path: circle(100%);
+}
+
+.card6 {
+  position: relative;
+  width: 320px;
+  height: 450px;
+  background: #15171A;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+  margin: 5% 25px 0 25px;
+}
+
+.card6:hover {
+  transform: translateY(-15px);
+  box-shadow: 3px 7px  15px black, -3px 0px 5px black;
+}
+
+.type6, .number6 {
+  align-items: center;
+  padding: 8px 20px;
+  transition: 0.5s ease-in-out;
+  margin-top: 110%;
+  opacity: 0;
+}
+
+.card6:hover .type6 {
+  opacity: 1;
+  margin-top: 2%;
+}
+
+.card6:hover .number6 {
+  margin-top: -10%;
+  opacity: 1;
+  transition-delay: 0.15s;
+}
+
+.card6:hover .buy {
+  opacity: 1;
+  transition-delay: opacity 0.5s;
+}
+
+/*                      New Card          */
+
+
+.card7:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#881010, #790b0b 100%);
+  clip-path: circle(0px at -10% 7%);
+  transition: ease-in-out 0.5s;
+  z-index: 1;
+}
+
+.card7:hover:before {
+  clip-path: circle(100%);
+}
+
+.card7 {
+  position: relative;
+  width: 320px;
+  height: 450px;
+  background: #15171A;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+  margin: 5% 25px 0 25px;
+}
+
+.card7:hover {
+  transform: translateY(-15px);
+  box-shadow: 3px 7px  15px black, -3px 0px 5px black;
+}
+
+.type7, .number7 {
+  align-items: center;
+  padding: 8px 20px;
+  transition: 0.5s ease-in-out;
+  margin-top: 110%;
+  opacity: 0;
+}
+
+.card7:hover .type7 {
+  opacity: 1;
+  margin-top: 2%;
+}
+
+.card7:hover .number7 {
+  margin-top: -10%;
+  opacity: 1;
+  transition-delay: 0.15s;
+}
+
+.card7:hover .buy {
+  opacity: 1;
+  transition-delay: opacity 0.5s;
+}
+
+/*                      New Card          */
+
+
+.card8:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#881010, #790b0b 100%);
+  clip-path: circle(0px at -10% 7%);
+  transition: ease-in-out 0.5s;
+  z-index: 1;
+}
+
+.card8:hover:before {
+  clip-path: circle(100%);
+}
+
+.card8 {
+  position: relative;
+  width: 320px;
+  height: 450px;
+  background: #15171A;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+  margin: 5% 25px 0 25px;
+}
+
+.card8:hover {
+  transform: translateY(-15px);
+  box-shadow: 3px 7px  15px black, -3px 0px 5px black;
+}
+
+.type8, .number8 {
+  align-items: center;
+  padding: 8px 20px;
+  transition: 0.5s ease-in-out;
+  margin-top: 110%;
+  opacity: 0;
+}
+
+.card8:hover .type8 {
+  opacity: 1;
+  margin-top: 2%;
+}
+
+.card8:hover .number8 {
+  margin-top: -10%;
+  opacity: 1;
+  transition-delay: 0.15s;
+}
+
+.card8:hover .buy {
+  opacity: 1;
+  transition-delay: opacity 0.5s;
+}
+
+/*                      New Card          */
+
+
+.card9:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#881010, #790b0b 100%);
+  clip-path: circle(0px at -10% 7%);
+  transition: ease-in-out 0.5s;
+  z-index: 1;
+}
+
+.card9:hover:before {
+  clip-path: circle(100%);
+}
+
+.card9 {
+  position: relative;
+  width: 320px;
+  height: 450px;
+  background: #15171A;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+  margin: 5% 25px 0 25px;
+}
+
+.card9:hover {
+  transform: translateY(-15px);
+  box-shadow: 3px 7px  15px black, -3px 0px 5px black;
+}
+
+.type9, .number9 {
+  align-items: center;
+  padding: 8px 20px;
+  transition: 0.5s ease-in-out;
+  margin-top: 110%;
+  opacity: 0;
+}
+
+.card9:hover .type9 {
+  opacity: 1;
+  margin-top: 2%;
+}
+
+.card9:hover .number9 {
+  margin-top: -10%;
+  opacity: 1;
+  transition-delay: 0.15s;
+}
+
+.card9:hover .buy {
+  opacity: 1;
+  transition-delay: opacity 0.5s;
+}
+
+/*                      New Card          */
+
+
+.card10:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#881010, #790b0b 100%);
+  clip-path: circle(0px at -10% 7%);
+  transition: ease-in-out 0.5s;
+  z-index: 1;
+}
+
+.card10:hover:before {
+  clip-path: circle(100%);
+}
+
+.card10 {
+  position: relative;
+  width: 320px;
+  height: 450px;
+  background: #15171A;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+  margin: 5% 25px 0 25px;
+}
+
+.card10:hover {
+  transform: translateY(-15px);
+  box-shadow: 3px 7px  15px black, -3px 0px 5px black;
+}
+
+.type10, .number10 {
+  align-items: center;
+  padding: 8px 20px;
+  transition: 0.5s ease-in-out;
+  margin-top: 110%;
+  opacity: 0;
+}
+
+.card10:hover .type10 {
+  opacity: 1;
+  margin-top: 2%;
+}
+
+.card10:hover .number10 {
+  margin-top: -10%;
+  opacity: 1;
+  transition-delay: 0.15s;
+}
+
+.card10:hover .buy {
+  opacity: 1;
+  transition-delay: opacity 0.5s;
 }
