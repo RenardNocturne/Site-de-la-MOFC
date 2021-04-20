@@ -204,8 +204,7 @@ h3 {
   color: #191C1F;
   text-transform: uppercase;
   text-align: center;
-  font-weight: normal;
-  letter-spacing: 1px;
+  font-weight: 1000;
 }
 
 .contentBx p {
