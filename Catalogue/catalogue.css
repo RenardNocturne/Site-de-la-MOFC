@@ -148,7 +148,7 @@ nav .contentnav ul li a:hover:after {
   box-shadow: 3px 7px  15px black, -3px 0px 5px black;
 }
 
-.tin {
+.ore {
   position: absolute;
   left: 50%;
   top: 5%;
@@ -279,4 +279,601 @@ nav .contentnav ul li a:hover:after {
   height: 100%;
   background: linear-gradient(to top, #BA1414, #4d1b19);
   filter: blur(30px);
+}
+
+.card2:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #C3C3C3;
+  clip-path: circle(0px at -10% 7%);
+  transition: ease-in-out 0.5s;
+  z-index: 1;
+}
+
+.card2:hover:before {
+  clip-path: circle(100%);
+}
+
+.card2 {
+  position: relative;
+  width: 320px;
+  height: 450px;
+  background: #15171A;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+  margin: 5% 25px;
+}
+
+.card2:hover {
+  transform: translateY(-15px);
+  box-shadow: 3px 7px  15px black, -3px 0px 5px black;
+}
+
+.contentBx2 {
+  position: absolute;
+  bottom: 0;
+  transition: 1s;
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+}
+
+.titleCard2 h2 {
+  text-align: center;
+  position: relative;
+  letter-spacing: 1px;
+  color: #BA1414;
+  margin-top: 53%;
+  text-transform: uppercase;
+}
+
+.titleCard2 p {
+  text-align: center;
+  font-weight: 350;
+  margin-top: -1%;
+}
+
+.type2, .number2 {
+  align-items: center;
+  padding: 8px 20px;
+  transition: 0.5s ease-in-out;
+  margin-top: 110%;
+  opacity: 0;
+}
+
+.card2:hover .type2 {
+  opacity: 1;
+  margin-top: 2%;
+}
+
+.card2:hover .number2 {
+  margin-top: -10%;
+  opacity: 1;
+  transition-delay: 0.15s;
+}
+
+.type2 h3, .number2 h3 {
+  color: #BA1414;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+.contentBx2 p {
+  position: relative;
+  text-align: center;
+  color: #15171A;
+  margin-top: -2%;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.contentBx2 a {
+  color: #BA1414;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+  position: absolute;
+  transition: color 0.3s;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: 2%;
+}
+
+.contentBx2 a:hover {
+  color: #790b0b
+}
+
+.card2:hover .contentBx2 a {
+  opacity: 1;
+  transition-delay: opacity 0.5s;
+}
+
+/*                      New Card          */
+
+
+
+
+
+
+.card3:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #41454F;
+  clip-path: circle(0px at -10% 7%);
+  transition: ease-in-out 0.5s;
+  z-index: 1;
+}
+
+.card3:hover:before {
+  clip-path: circle(100%);
+}
+
+.card3 {
+  position: relative;
+  width: 320px;
+  height: 450px;
+  background: #15171A;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+  margin: 5% 25px;
+}
+
+.card3:hover {
+  transform: translateY(-15px);
+  box-shadow: 3px 7px  15px black, -3px 0px 5px black;
+}
+
+.contentBx3 {
+  position: absolute;
+  bottom: 0;
+  transition: 1s;
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+}
+
+.titleCard3 h2 {
+  text-align: center;
+  position: relative;
+  letter-spacing: 1px;
+  color: #BA1414;
+  margin-top: 53%;
+  text-transform: uppercase;
+}
+
+.titleCard3 p {
+  text-align: center;
+  font-weight: 350;
+  margin-top: -1%;
+}
+
+.type3, .number3 {
+  align-items: center;
+  padding: 8px 20px;
+  transition: 0.5s ease-in-out;
+  margin-top: 110%;
+  opacity: 0;
+}
+
+.card3:hover .type3 {
+  opacity: 1;
+  margin-top: 2%;
+}
+
+.card3:hover .number3 {
+  margin-top: -10%;
+  opacity: 1;
+  transition-delay: 0.15s;
+}
+
+.type3 h3, .number3 h3 {
+  color: #BA1414;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+.contentBx3 p {
+  position: relative;
+  text-align: center;
+  color: #15171A;
+  margin-top: -2%;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.contentBx3 a {
+  color: #BA1414;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+  position: absolute;
+  transition: color 0.3s;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: 2%;
+}
+
+.contentBx3 a:hover {
+  color: #790b0b
+}
+
+.card3:hover .contentBx3 a {
+  opacity: 1;
+  transition-delay: opacity 0.5s;
+}
+
+
+/*                          Container                             */
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+
+/*                        New card                          */
+
+
+.card4:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #393939;
+  clip-path: circle(0px at -10% 7%);
+  transition: ease-in-out 0.5s;
+  z-index: 1;
+}
+
+.card4:hover:before {
+  clip-path: circle(100%);
+}
+
+.card4 {
+  position: relative;
+  width: 320px;
+  height: 450px;
+  background: #15171A;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+  margin: 5% 25px;
+}
+
+.card4:hover {
+  transform: translateY(-15px);
+  box-shadow: 3px 7px  15px black, -3px 0px 5px black;
+}
+
+.contentBx4 {
+  position: absolute;
+  bottom: 0;
+  transition: 1s;
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+}
+
+.titleCard4 h2 {
+  text-align: center;
+  position: relative;
+  letter-spacing: 1px;
+  color: #BA1414;
+  margin-top: 53%;
+  text-transform: uppercase;
+}
+
+.titleCard4 p {
+  text-align: center;
+  font-weight: 350;
+  margin-top: -1%;
+}
+
+.type4, .number4 {
+  align-items: center;
+  padding: 8px 20px;
+  transition: 0.5s ease-in-out;
+  margin-top: 110%;
+  opacity: 0;
+}
+
+.card4:hover .type4 {
+  opacity: 1;
+  margin-top: 2%;
+}
+
+.card4:hover .number4 {
+  margin-top: -10%;
+  opacity: 1;
+  transition-delay: 0.15s;
+}
+
+.type4 h3, .number4 h3 {
+  color: #BA1414;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+.contentBx4 p {
+  position: relative;
+  text-align: center;
+  color: #15171A;
+  margin-top: -2%;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.contentBx4 a {
+  color: #BA1414;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+  position: absolute;
+  transition: color 0.3s;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: 2%;
+}
+
+.contentBx4 a:hover {
+  color: #790b0b
+}
+
+.card4:hover .contentBx4 a {
+  opacity: 1;
+  transition-delay: opacity 0.5s;
+}
+
+
+/*                        New card                          */
+
+
+.card5:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #F7EB56;
+  clip-path: circle(0px at -10% 7%);
+  transition: ease-in-out 0.5s;
+  z-index: 1;
+}
+
+.card5:hover:before {
+  clip-path: circle(100%);
+}
+
+.card5 {
+  position: relative;
+  width: 320px;
+  height: 450px;
+  background: #15171A;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+  margin: 5% 25px;
+}
+
+.card5:hover {
+  transform: translateY(-15px);
+  box-shadow: 3px 7px  15px black, -3px 0px 5px black;
+}
+
+.contentBx5 {
+  position: absolute;
+  bottom: 0;
+  transition: 1s;
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+}
+
+.titleCard5 h2 {
+  text-align: center;
+  position: relative;
+  letter-spacing: 1px;
+  color: #BA1414;
+  margin-top: 53%;
+  text-transform: uppercase;
+}
+
+.titleCard5 p {
+  text-align: center;
+  font-weight: 350;
+  margin-top: -1%;
+}
+
+.type5, .number5 {
+  align-items: center;
+  padding: 8px 20px;
+  transition: 0.5s ease-in-out;
+  margin-top: 110%;
+  opacity: 0;
+}
+
+.card5:hover .type5 {
+  opacity: 1;
+  margin-top: 2%;
+}
+
+.card5:hover .number5 {
+  margin-top: -10%;
+  opacity: 1;
+  transition-delay: 0.15s;
+}
+
+.type5 h3, .number5 h3 {
+  color: #BA1414;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+.contentBx5 p {
+  position: relative;
+  text-align: center;
+  color: #15171A;
+  margin-top: -2%;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.contentBx5 a {
+  color: #BA1414;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+  position: absolute;
+  transition: color 0.3s;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: 2%;
+}
+
+.contentBx5 a:hover {
+  color: #790b0b
+}
+
+.card5:hover .contentBx5 a {
+  opacity: 1;
+  transition-delay: opacity 0.5s;
+}
+
+/*                        New card                          */
+
+
+.card6:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #834100;
+  clip-path: circle(0px at -10% 7%);
+  transition: ease-in-out 0.5s;
+  z-index: 1;
+}
+
+.card6:hover:before {
+  clip-path: circle(100%);
+}
+
+.card6 {
+  position: relative;
+  width: 320px;
+  height: 450px;
+  background: #15171A;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+  margin: 0 25px;
+}
+
+.card6:hover {
+  transform: translateY(-15px);
+  box-shadow: 3px 7px  15px black, -3px 0px 5px black;
+}
+
+.contentBx6 {
+  position: absolute;
+  bottom: 0;
+  transition: 1s;
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+}
+
+.titleCard6 h2 {
+  text-align: center;
+  position: relative;
+  letter-spacing: 1px;
+  color: #BA1414;
+  margin-top: 53%;
+  text-transform: uppercase;
+}
+
+.titleCard6 p {
+  text-align: center;
+  font-weight: 350;
+  margin-top: -1%;
+}
+
+.type6, .number6 {
+  align-items: center;
+  padding: 8px 20px;
+  transition: 0.5s ease-in-out;
+  margin-top: 110%;
+  opacity: 0;
+}
+
+.card6:hover .type6 {
+  opacity: 1;
+  margin-top: 2%;
+}
+
+.card6:hover .number6 {
+  margin-top: -10%;
+  opacity: 1;
+  transition-delay: 0.15s;
+}
+
+.type6 h3, .number6 h3 {
+  color: #BA1414;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+.contentBx6 p {
+  position: relative;
+  text-align: center;
+  color: #15171A;
+  margin-top: -2%;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.contentBx6 a {
+  color: #BA1414;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+  position: absolute;
+  transition: color 0.3s;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: 2%;
+}
+
+.contentBx6 a:hover {
+  color: #790b0b
+}
+
+.card6:hover .contentBx6 a {
+  opacity: 1;
+  transition-delay: opacity 0.5s;
 }
